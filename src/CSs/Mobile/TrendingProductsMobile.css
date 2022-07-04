@@ -1,0 +1,313 @@
+.TrendingProductsMobile{
+  margin: auto;
+  text-align: center; 
+  max-width: 1920px;
+  justify-content: center;
+  margin-top: 80px;
+}
+  .TrendingProductsMobile__TD{
+    font-size: 30px;
+    color: #151875;
+    font-family: 'Josefin Sans';
+    line-height: 20px;
+    text-align: center;
+    display: none;
+  }
+  .ProductsTrendMobile{
+    display: flex;
+    justify-content : center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: 10%;
+  }
+  .ProductsTrendMobile >*{
+    float: 1 1 20%;
+  }
+    .ProductsTrendMobile__1{
+      margin-left: 5%;
+      width: 250px;
+      height: 300px;
+      background-color:rgba(245, 246, 248, 1);
+      margin-bottom: 80px;
+    }
+    .ProductsTrendMobile1__Img{
+      width: 220px;
+      height: 200px;
+      margin-top: 40px;
+      margin-left: 13px;
+    }
+  .ProductsTrendMobile1__Nd{
+      background-color: white;
+      width: 250px;
+      height: 100px;
+      margin-top: 10px;
+  }
+    .ProductsTrendMobile1__Nd__prTD{
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 55px;
+      color: #151875;
+    }
+    .ProductsTrendMobile1__Nd__prT{
+      display: inline-flex;
+      position: relative;
+      bottom: 30px;
+    }
+    .ProductsTrendMobile1__Nd__prTr{
+      font-family: 'Josefin Sans';
+      font-size: 16px;
+      line-height: 0px;
+      color: rgba(21, 24, 117, 1);
+    }
+    .ProductsTrendMobile1__Nd__prTg{
+      margin-left: 10px;
+      margin-top: 18px;
+      font-family: 'Josefin Sans';
+      font-size: 14px;
+      line-height: 0px;
+      text-decoration-line: line-through;
+      color:rgba(21, 24, 117, 0.3);
+    }
+  .ProductsTrendMobile__4{
+    margin-left: 5%;
+    width: 360px;
+    height: 270px;
+    margin-top: 40px;
+    background-color:rgba(255, 246, 251);
+  }
+    .ProductsTrendMobile4__Nd{
+      position: absolute;
+    }
+    .ProductsTrendMobile4__prC{
+      position: relative;
+      text-align: left;
+      margin-left: 30px;
+    }
+      .ProductsTrendMobile4__prCO{
+        font-family: 'Josefin Sans';
+        font-size: 26px;
+        line-height: 30px;
+        color: #151875;
+      }
+      .ProductsTrendMobile4__prCS{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(251, 46, 134, 1);
+        text-decoration-line: underline;
+        position: relative;
+        bottom: 20px;
+      }
+    .productsTrendMobile4__Img{
+      position: relative;
+      bottom: 60px;
+      left: 140px;
+    }
+    .ProductsTrendMobile__5{
+      margin-left: 5%;
+      width: 380px;
+      height: 270px;
+      margin-top: 40px;
+      background-color:rgba(238, 239, 251, 1);
+    }
+      .ProductsTrendMobile5__Nd{
+        position: absolute;
+      }
+      .ProductsTrendMobile5__prC5{
+        position: relative;
+        text-align: left;
+        margin-left: 30px;
+      }
+        .ProductsTrendMobile5__prCO5{
+          font-family: 'Josefin Sans';
+          font-size: 24px;
+          line-height: 30px;
+          color: #151875;
+        }
+        .ProductsTrendMobile5__prCS5{
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 19px;
+          color: rgba(251, 46, 134, 1);
+          text-decoration-line: underline;
+          position: relative;
+          bottom: 20px;
+        }
+      .ProductsTrendMobile5__Img{
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+      }
+      .ProductsTrendMobile5__Trend5Img{
+        width: 280px;
+      }
+  .ProductsTrendMobile__7{
+    margin-left: 5%;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+  }
+      .ProductsTrendMobile7__prC71{
+        display: flex;
+        text-align: left;
+        width: 300px;
+        height: 80px;
+        background-color:rgba(245, 246, 248, 1);
+      }
+      .ProductsTrendMobile7__prC72{
+        display: flex;
+        text-align: left;
+        width: 300px;
+        height: 80px;
+        margin-top: 10px;
+        background-color:rgba(245, 246, 248, 1);
+      }
+      .ProductsTrendMobile7__prC73{
+        display: flex;
+        text-align: left;
+        width: 300px;
+        height: 80px;
+        margin-top: 10px;
+        background-color:rgba(245, 246, 248, 1);
+      }
+        .ProductsTrendMobile7__prCO71{
+          width: 90px;
+          height: 30;
+          margin-left: 15px;
+        }
+        .ProductsTrendMobile7__prCS71{
+          font-family: 'Josefin Sans';
+          font-size: 16px;
+          line-height: 19px;
+          color: #151875;
+          background-color: white;
+          width: 230px;
+          padding-left: 10px;
+          line-height: 10px;
+        }
+          .ProductsTrendMobile7__prCS71S{
+            text-decoration-line: line-through;
+            font-size: 14px;
+            line-height: 14px;  
+          }
+  /* mobile */
+  @media only screen and (max-width:749px) {
+    .TrendingProductsMobile{
+      display: none;
+    }
+    .TrendingProductsMobile__TD{
+        display: block;
+    }
+    .ProductsTrendMobile__1 {
+      margin-left: 5%;
+      width: 250px;
+      height: 300px;
+      background-color: rgba(245, 246, 248, 1);
+      margin-bottom: 40px;
+    }
+    .ProductsTrendMobile__4 {
+      margin-left: 5%;
+      width: 360px;
+      height: 245px;
+      margin-top: 40px;
+      background-color: rgba(255, 246, 251);
+    }
+    .productsTrendMobile4__Img {
+      position: relative;
+      bottom: 60px;
+      left: 85px;
+    }
+    .ProductsTrendMobile1__Img {
+      width: 220px;
+      height: 175px;
+      margin-top: 30px;
+      margin-left: 15px;
+    }
+    .ProductsTrendMobile1__Trend4Img{
+        margin-top: -20px;
+    }
+    .ProductsTrendMobile__4 {
+        margin-left: 5%;
+        width: 360px;
+        height: 270px;
+        margin-top: 0px;
+        background-color: rgba(255, 246, 251);
+    }
+    .ProductsTrendMobile__5 {
+        margin-left: 5%;
+        width: 300px;
+        height: 205px;
+        margin-top: 0px;
+        background-color: rgba(238, 239, 251, 1);
+    }
+    .ProductsTrendMobile__7 {
+        margin-left: 5%;
+        width: 300px;
+        height: 200px;
+        margin-top: 0px;
+    }
+}
+/* tablet */
+@media  only screen and (min-width:600px) and (max-width:1023px) {
+  .TrendingProductsMobile{
+    display: none;
+  }
+  .TrendingProductsMobile__TD{
+      display: block;
+      margin-top: 70px;
+  }
+  .ProductsTrend{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+  }
+  .ProductsTrend >*{
+    float: 1 1 10%;
+  }
+  .ProductsTrend__1{
+    width: 220px;
+  }
+  .ProductsTrend1__Img{
+    width: 150px;
+  }
+  .ProductsTrend__Trend1Img{
+    width: 100px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 40px;
+    background-color: rgba(245, 246, 248, 1);
+  }
+  .ProductsTrendMobile1__Trend4Img{
+    margin-top: -20px;
+}
+.ProductsTrendMobile__4 {
+    margin-left: 5%;
+    width: 360px;
+    height: 270px;
+    margin-top: 0px;
+    background-color: rgba(255, 246, 251);
+}
+.ProductsTrendMobile__5 {
+    margin-left: 5%;
+    width: 300px;
+    height: 205px;
+    margin-top: 20px;
+    background-color: rgba(238, 239, 251, 1);
+}
+.ProductsTrendMobile__7 {
+    margin-left: 5%;
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+  
+}

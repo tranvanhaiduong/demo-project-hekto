@@ -1,0 +1,152 @@
+.LBlog{
+    margin: auto;
+    text-align: center; 
+    max-width: 1920px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+    .LBlog__N{
+      font-family: 'Josefin Sans';
+      font-size: 30px;
+      line-height: 49px;
+      text-align: center;
+      color: #151875;
+    }
+    .LBlog__H{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .LBlog__H >*{
+      flex: 1 1 20%;
+    }
+    .LBlog__H1_Img{
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .LBlog__H1,.LBlog__H2,.LBlog__H3{
+      margin: auto;
+      max-width:400px;
+    }
+    .LBlog__H1_Text{
+      margin-left: 30px;
+    }
+    .LBlog__H1_Text_Td{
+      display: flex;
+      font-family: 'Josefin Sans';
+      font-size: 16px;
+      line-height: 16px;
+      color: #151875;
+    }
+    .LBlog__H1:hover .LBlog__H1_Text_TTop{
+        color: rgba(251, 46, 134, 1);
+    }
+    .LBlog__H2:hover .LBlog__H1_Text_TTop{
+        color: rgba(251, 46, 134, 1);
+    }
+    .LBlog__H3:hover .LBlog__H1_Text_TTop{
+        color: rgba(251, 46, 134, 1);
+    }
+    .LBlog__H1:hover .LBlog__H1_Text_Trm{
+        color: rgba(251, 46, 134, 1);
+    }
+    .LBlog__H2:hover .LBlog__H1_Text_Trm{
+        color: rgba(251, 46, 134, 1);
+    }
+    .LBlog__H3:hover .LBlog__H1_Text_Trm{
+        color: rgba(251, 46, 134, 1);
+    }
+      .LBlog__H1_VectorLich{
+        margin-left: 60px;
+        width: 15px;
+        height: 15px;
+        margin-top: 15px;
+        object-fit: cover;
+      }
+      .LBlog__H1_Vectorbut{
+        width: 15px;
+        height: 15px;
+        margin-top: 17px;
+        object-fit: cover;
+      }
+      .LBlog__H1_Vcb{
+        margin-left:5px;
+      }
+    .LBlog__H1_Text_TT{
+      text-align: left;
+      line-height: 15px;
+      width: 340px;
+      color: #151875;
+    }
+      .LBlog__H1_Text_TTop{
+        font-family: 'Josefin Sans';
+        font-size: 18px;
+        line-height: 21px;
+      }
+      .LBlog__H1_Text_Tmor{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #72718F;
+      }
+      .LBlog__H1_Text_Trm{
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 16px;
+        text-decoration-line: underline;
+      }
+    
+  /* mobile */
+  @media only screen and (max-width: 599px) {
+   .LBlog{
+    /* max-width: 320px; */
+    display: none;
+   } 
+   /* .LBlogN{
+    font-size: 23px;
+   }
+   .LBlogH{
+    margin-left:5px;
+   }
+   .LBlogH1{
+    width: 300px;
+   }
+   .LBlogH1Img{
+    width: 290px;
+   }
+   .LBlogH1TextTT{
+    width: auto;
+   }
+   .LBlogH1Text{
+    margin-left: 10px;
+   } */
+  }
+  /* tablet */
+  @media only screen and (min-width: 600px) and (max-width: 1023px) {
+    .LBlog{
+      max-width: 650px;
+      display: none;
+     } 
+     .LBlogN{
+      font-size: 27px;
+     }
+     .LBlogH1Text{
+      width: auto;
+     }
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1100px) {
+      .LBlog{
+        display: none;
+      }
+    }
+    @media screen and (min-width: 1101px){
+      .LBlog{
+        display: block;
+      }
+      .mySwiperBL{
+        display: none;
+      }
+    }

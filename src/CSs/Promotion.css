@@ -1,0 +1,235 @@
+.promotion{
+  background-color: rgba(242, 240, 255, 1); 
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+}
+.promotion__TD{
+  margin: auto;
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+.promotionT__TD__bg{
+  display: flex;
+}
+  .promotion__light{
+    position: relative;
+    width: 150px;
+    left: 230px;
+    bottom: 120px;
+  }
+  .promotion__TD__sofabg{
+    position: relative;
+    top: 50px;
+    left: 650px;
+  }
+  .promotion__sofa {
+    width: 550px;
+  }
+  .promotion__bg{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+  }
+  .promotion__BNL{
+    position: absolute;
+    margin: auto;
+  }
+    .promotion__BNL__BF{
+      margin: auto;
+      font-size: 16px;
+      color: rgba(251, 46, 134, 1);
+      /* font-family: 'Lato'; */
+      font-style: normal;
+      position: relative;
+      height: 28px;
+      bottom: -35px;
+      left: 250px;
+    }
+    .promotion__BNL__NF{
+      position: relative;
+      font-size: 40px;
+      font-family: 'Josefin Sans';
+      position: relative;
+      width: 450px;
+      height: 140px;
+      left: 250px;
+      bottom: -12px;
+    }
+    .promotion__BNL__LD{
+      font-size: 16px;
+      color: #8A8FB9;
+      position: relative;
+      width: 450px;
+      height: 56px;
+      left: 250px;
+      bottom: 70px;
+    }
+    .promotion__BNL__SN {
+      position: relative;
+      background-color: rgba(251, 46, 134, 1);
+      color: rgba(255, 255, 255, 1);
+      size: 17px;
+      font-family: 'Josefin Sans';
+      font-size: 17px;
+      line-height: 20px;
+      width: 140px;
+      height: 45px;
+      border: 0px;
+      left: 250px;
+      top: 275px;
+      cursor: pointer;
+    }
+/* mobile */
+@media only screen and (max-width: 599px){
+.promotion{ 
+  margin:20px auto;
+  max-width:599px;
+  width: 100%;
+}
+.promotion__TD{
+  height: 145px;
+  justify-content: center;
+}
+.promotion__light{
+  width: 40px;
+  left: -30px;
+  top: -20px;
+  height: 80px;
+}
+.promotion__sofa{
+  width: 120px;
+}
+.promotion__TD__sofabg{
+  top: -10px;
+  left: 35px;
+}
+.promotion__BNL__BF{
+  font-size: 5px;
+  left: -20px;
+  top: -7px;
+}
+.promotion__BNL__NF{
+  font-size: 10px;
+  left: -20px;
+  width: 120px;
+  bottom: 30px;
+}
+.promotion__BNL__LD{
+  font-size: 8px;
+    left: -20px;
+    width: 120px;
+    bottom: 160px;
+}
+.promotion__BNL__SN{
+  font-size: 10px;
+  line-height: 20px;
+  width: 60px;
+  height: 20px;
+  border: 0px;
+  top: 85px;
+  left: -20px;
+}
+}
+/*-------tablet------*/
+@media only screen and (min-width: 600px) and (max-width:1023px){
+.promotion{ 
+  max-width: 1023px;
+  margin:20px auto;
+  width: 100%;
+}
+.promotion__TD{
+  justify-content: center;
+  height: 250px;
+}
+.promotion__light{
+  width: 80px;
+  left: -90px;
+  top: -20px;
+}
+.promotion__sofa{
+  width: 200px;
+}
+.promotion__TD__sofabg{
+  top: 25px;
+  left: 110px;
+}
+.promotion__BNL__BF{
+  font-size: 10px;
+  top: 60px;
+  left: -65px;
+}
+.promotion__BNL__NF{
+  font-size: 15px;
+    left: -65px;
+    top: 35px;
+    width: 200px;
+}
+.promotion__BNL__LD{
+  font-size: 10px;
+    left: -65px;
+    top: -85px;
+    width: 237px;
+}
+.promotion__BNL__SN{
+  font-size: 10px;
+  line-height: 20px;
+  width: 60px;
+  height: 20px;
+  border: 0px;
+  top: 160px;
+  left: -65px;
+}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1400px){
+.promotion{ 
+  max-width: 1400px;
+  margin:20px auto;
+  width: 100%;
+}
+.promotion__TD{
+  justify-content: center;
+  height: 350px;
+}
+.promotion__light{
+  width: 150px;
+  left: -160px;
+  top: -10px;
+  height: 250px;
+}
+.promotion__sofa{
+  width: 340px;
+}
+.promotion__TD__sofabg{
+  left: 190px;
+  top: -10px;
+}
+.promotion__BNL__BF{
+  font-size: 20px;
+    left: -145px;
+    top: 85px;
+}
+.promotion__BNL__NF{
+  font-size: 25px;
+  left: -140px;
+  top: 75px;
+  width: 300px;
+}
+.promotion__BNL__LD{
+  font-size: 18px;
+  left: -140px;
+  top: -45px;
+  width: 415px;
+}
+.promotion__BNL__SN{
+  font-size: 15px;
+  line-height: 20px;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  top: 274px;
+  left: -140px;
+}
+}

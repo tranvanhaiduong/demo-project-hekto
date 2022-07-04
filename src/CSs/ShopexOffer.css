@@ -1,0 +1,81 @@
+.ShopexOffer{
+    margin: auto;
+    text-align: center; 
+    max-width: 1920px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+    .ShopexOffer__TD{
+      text-align: center;
+      font-size: 25px;
+      color: rgba(21, 24, 117, 1);
+      font-family: 'Josefin Sans';
+      line-height: 100px;
+    }
+    .ShopexOffe__Btn{
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+      .ShopexOffe__Btn > *{
+        flex: 1 1 20%;
+      }
+    .ShopexOffer__Xe {
+      padding: 10px;
+      width: 200px;
+    }
+      .ShopexOffer__TD{
+        color: rgba(21, 24, 117, 1);
+        font-family: 'Josefin Sans';
+        font-size: 22px;
+        line-height: 26px;
+      }
+      .ShopexOffer__TDD{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color:  rgba(26, 11, 91, 0.3);
+        text-align: center;
+      }
+      .ShopexOffer__Xe1{
+        margin-top: 27px ;
+      }
+
+    /* mobile */
+  @media only screen and (max-width:599px) {
+    .shopexOffer{
+      display: none;
+    }
+  }
+  
+  /* tablet */
+  @media only screen and (min-width:600px) and (max-width:1023px) {
+    .shopexOffer{
+      max-width: 650px;
+      margin-top: 60px;
+      display: none;
+    }
+    .ShopexOffer__TD{
+      font-size: 15px;
+    }
+    .ShopexOffer__Xe {  
+      width:200px;
+    }
+    .ShopexOffer__TDD{
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+    .ShopexOffer__TDD > *{
+      flex: 1 1 40%;
+    }
+    .ShopexOffer__TD{
+      font-size: 16px ;
+    }
+    .ShopexOffer__TDD{
+      font-size: 13px;
+    }
+  }

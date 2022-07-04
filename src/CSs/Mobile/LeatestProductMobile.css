@@ -1,0 +1,294 @@
+.LeatestProduct{
+  margin: auto;
+  text-align: center; 
+  max-width: 1920px;
+  justify-content: center;
+  margin-top: 80px;
+}
+  .LeatestProductMobile__lpts{
+    margin: auto;
+    color: rgba(21, 24, 117, 1);
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    line-height: 30px;
+    height: 40px;
+    display: none;
+  }
+  .LeatestProductMobile__Nlpts{
+    display: flex;
+    justify-content : center;
+    line-height: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 13px;
+    display: none;
+  }
+    .LeatestProductMobile__Nlpts__NA{
+      color: rgba(251, 46, 134, 1);
+      text-decoration: underline;
+    }
+    .LeatestProductMobile__Nlpts__BE{
+      color:#151875;
+      margin-left: 16px;
+    }
+  .LeatestProduct__Product{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  .LeatestProduct__Product >* {
+    flex: 1 1 30%;
+  }
+    .Product{
+      margin: auto;
+      width: 360px;
+      height: 306px;
+      margin-top: 40px;
+    /* flex-basis: 100%; */
+    }
+      .Product__NSG{
+      display: flex;
+      font-size: 18px;
+      }
+        .Product__Name{
+          color: rgba(21, 24, 117, 1);
+          font-family: 'Josefin Sans';
+          text-decoration: underline rgba(238, 239, 251, 1);
+        }
+        .Product__priceSale{
+          color: rgba(21, 24, 117, 1);
+          font-family: 'Josefin Sans';
+          margin-left: 50px;
+        }
+        .Product__priceGoc{
+          font-size: 16px;
+          color: rgba(251, 36, 72, 1);
+          font-family: 'Josefin Sans';
+          margin-left: 10px;
+          padding-top: 3px;
+          text-decoration: line-through;
+        }
+      .Product__Img{
+        background-color:rgba(247, 247, 247, 1);
+        width: 310px;
+        height: 269.96px;
+      }
+      .Product__Craff{
+        width: 223px;
+        height: 229px;
+        margin-top: 10px;
+      }
+      .productImg2{
+        background-color:rgba(255, 255, 255, 1);  
+        width: 310px;
+        height: 269.96px;
+      }
+      .productCraff2{
+        margin-top: 40px;
+        width: 223px;
+        height: 229px;
+        margin-left: 40px;
+        margin-top: 10px; 
+      }
+      .Product2t{
+        position: absolute;
+        opacity: 0;
+      }
+      .Product:hover .Product2t{
+          opacity: 1;
+      }
+      .Product2icon{
+        display: block;
+        position: relative;
+        bottom: 260px;
+        right: 10px;
+      }
+        .MobilebuyP{
+          position: relative;
+          padding: 10px;
+          font-size: 20px;
+          font-weight: 500;
+          color: rgba(47, 26, 196, 1);
+          left: 20px;
+          top: 25px;
+          cursor: pointer;
+        }
+        .MobiletymP{
+          position: relative;
+          font-size: 20px;
+          font-weight: 500;
+          padding: 10px;
+          color:#469bef;
+          top: -20px;
+          right: -20px;
+          cursor: pointer;
+        }
+        .MobilezoomP{
+          position: relative;
+          font-size: 20px;
+          font-weight: 500;
+          padding: 10px;
+          color:  #469bef;
+          top: -60px;
+          left: 20px;
+          cursor: pointer;
+        }
+      .Product2__Mobile_ImgSale{
+        position:relative;
+        flex-wrap: wrap;
+        bottom: 485px;
+        right: -5px;
+      }
+/* mobile */
+@media only screen and (max-width:600px) {
+.LeatestProductMobile__lpts{
+  display: block;
+}
+.LeatestProductMobile__Nlpts{
+  display: block;
+  text-align: center;
+  font-size: 13px;
+}
+.Product{
+  height: 250px;
+}
+.Product__Img {
+  background-color: rgba(247, 247, 247, 1);
+  width: 255px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Product__Craff {
+  width: 155px;
+  height: 155px;
+  margin-top: 10px;
+}
+.Product__NSG{
+  font-size: 15px;
+  margin-left: 20px;
+}
+.Product__priceGoc{
+  font-size: 13px;
+}
+.Product__priceSale {
+  margin-left: 20px;
+}
+.Product2ImgSale{
+  position:relative;
+  flex-wrap: wrap;
+  bottom: 390px;
+  right: -20px;
+}
+.Product2icon {
+  bottom: 250px;
+  right: 5px;
+}
+.Product2t {
+  top: 270px;
+}
+}
+/* tablet */
+@media only screen and (min-width:600px) and (max-width:1023px) {
+/* .LeatestProduct{
+  display: block;
+} */
+.LeatestProductMobile__lpts{
+  display: block;
+}
+.LeatestProductMobile__Nlpts{
+  display: block;
+  text-align: center;
+}
+.Product{
+  height: 250px;
+}
+.Product__Img {
+  background-color: rgba(247, 247, 247, 1);
+  width: 255px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Product__Craff {
+  width: 155px;
+  height: 155px;
+  margin-top: 10px;
+}
+.Product__NSG{
+  font-size: 15px;
+  margin-left: 20px;
+}
+.Product__priceGoc{
+  font-size: 13px;
+}
+.Product__priceSale {
+  margin-left: 20px;
+}
+.Product2ImgSale{
+  position:relative;
+  flex-wrap: wrap;
+  bottom: 390px;
+  right: -20px;
+}
+.Product2icon {
+  bottom: 250px;
+  right: 5px;
+}
+.Product2t {
+  top: 270px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .LeatestProduct{
+    display: none;
+  }
+  .LeatestProductMobile__lpts{
+    display: block;
+  }
+  .LeatestProductMobile__Nlpts{
+    display: block;
+    text-align: center;
+  }
+  .Product{
+    height: 250px;
+  }
+  .Product__Img {
+    background-color: rgba(247, 247, 247, 1);
+    width: 255px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Product__Craff {
+    width: 155px;
+    height: 155px;
+    margin-top: 10px;
+  }
+  .Product__NSG{
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .Product__priceGoc{
+    font-size: 13px;
+  }
+  .Product__priceSale {
+    margin-left: 20px;
+  }
+  .Product2ImgSale{
+    position:relative;
+    flex-wrap: wrap;
+    bottom: 390px;
+    right: -20px;
+  }
+  .Product2icon {
+    bottom: 250px;
+    right: 5px;
+  }
+  .Product2t {
+    top: 270px;
+  }
+}

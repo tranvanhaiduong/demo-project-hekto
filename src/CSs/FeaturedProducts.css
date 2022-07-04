@@ -1,0 +1,246 @@
+.FeaturedProducts{
+    margin: auto;
+    text-align: center; 
+    max-width: 1920px;
+    justify-content: center;
+  } 
+    .kenang{
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: -20px;
+      line-height: 100px;
+    }
+      .kenngn{
+        width: 120px;
+      }
+    .Featured{
+      color: rgba(26, 11, 91, 1);
+      text-align: center;
+      font-family: 'Josefin Sans';
+      font-size: 25px;
+      line-height: 100px;
+    }
+    .Products{
+      display: flex;
+      text-align: center;
+      line-height: 65px;
+      flex-wrap: wrap;
+      margin-right: 5%;
+    }
+    .Products >*{
+      flex: 1 1 20%;
+    }
+      .Products__char1{
+        width: 250px;
+        height: 370px;
+        background-color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+      .char1img__img{
+        margin-top: 35px;
+        margin-left: 2px;
+        margin-bottom: 14px;
+      }
+        .Products__char1__char1img{
+          background-color: rgba(247, 247, 247, 1);
+        }
+        .Products__char1back{
+          line-height: 1%;
+          height: 110px;
+          margin-top: -30px;
+          background-color: white;
+        }
+          .Products__char1F{
+            color: #FB2E86;
+            font-size: 20px;
+            position: relative;
+            top: 15px;
+          }
+          .Products__char1ND{
+            font-family: 'Josefin Sans';  
+            font-size: 16px;
+            color: #151875;
+          }
+        .Products__char2{
+            width: 250px;
+            height: 370px;
+            background-color: white;
+            margin-left: 5%;
+            margin-top: 10px;
+          }
+          .char1img__img2{
+            margin-top: 55px;
+            margin-left: 2px;
+            margin-bottom: 20px;
+            }
+          .Products__char2__char2img{
+            background-color: rgba(247, 247, 247, 1);
+            }
+          .Products__char2back{
+            background-color: white;
+            line-height: 1%;
+            height: 110px;
+            margin-top: -30px;
+        }
+      .Products__char3{
+        width: 250px;
+        height: 370px;
+        background-color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+        .char1img__img{
+        margin-top: 35px;
+        margin-left: 2px;
+        margin-bottom: 14px;
+        }
+        .Products__char__char3img{
+          background-color: rgba(247, 247, 247, 1);
+        }
+          .Products__char3back{
+            background-color: white;
+            line-height: 1%;
+            height: 110px;
+            margin-top: -30px;
+          }
+      .Products__char4{
+        width: 250px;
+        height: 370px;
+        background-color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+      .img4{
+        margin-top: 50px;
+        margin-left: 2px;
+        margin-bottom: 25px;
+      }
+        .char4img{
+          background-color: rgba(247, 247, 247, 1);
+        }
+        .Products__char4back{
+          line-height: 1%;
+          height: 110px;
+          margin-top: -30px;
+        }
+        .Products__icon{
+            position: absolute;
+            opacity: 0; 
+          }
+          .Products__char4:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char3:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char2:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char1:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char1:hover .Products__char1ND{
+            color: white;
+          }
+          .Products__char1:hover .Products__char1F{
+            color: white;
+          }
+          .Products__char1:hover .Products__char1back{
+            background-color: #151875;
+          }
+          /* --------------- */
+          .Products__char2:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char2:hover .Products__char1ND{
+            color: white;
+          }
+          .Products__char2:hover .Products__char1F{
+            color: white;
+          }
+          .Products__char2:hover .Products__char2back{
+            background-color: #151875;
+          }
+          /* ------------ */
+          .Products__char3:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char3:hover .Products__char1ND{
+            color: white;
+          }
+          .Products__char3:hover .Products__char1F{
+            color: white;
+          }
+          .Products__char3:hover .Products__char3back{
+            background-color: #151875;
+          }
+          /* -------------- */
+          .Products__char4:hover .Products__icon{
+            opacity: 1;
+          }
+          .Products__char4:hover .Products__char1ND{
+            color: white;
+          }
+          .Products__char4:hover .Products__char1F{
+            color: white;
+          }
+          .Products__char4:hover .Products__char4back{
+            background-color: #151875;
+          }
+          .icon{
+            position: relative;
+            bottom: 385px;
+            left: -15px;
+          }
+            .buy{
+              position: relative;
+              padding: 10px;
+              font-size: 20px;
+              font-weight: 500;
+              color: rgba(47, 26, 196, 1);
+              cursor: pointer;
+            }
+            .tym{
+              position: relative;
+              font-size: 20px;
+              font-weight: 500;
+              padding: 10px;
+              color:  #469bef;
+              cursor: pointer;
+            }
+            .zoom{
+              position: relative;
+              font-size: 20px;
+              font-weight: 500;
+              padding: 10px;
+              color:  #469bef;
+              cursor: pointer;
+            }
+        .Products__btn{
+            position: relative;
+            margin-top: -255px;
+            margin-left: 90px;
+        }
+        .Products__btnchar{  
+            padding: 8px;
+            background-color: rgba(8, 209, 95, 1);
+            color: white;
+            border: 0px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+  /* mobile */
+  @media only screen and (max-width:599px) {
+    .FeaturedProducts{
+      display: none;
+    }
+  }
+  /* tablet */
+  @media only screen and (min-width:600px) and (max-width:1023px){
+    .FeaturedProducts{
+      display: none;
+    }
+  }

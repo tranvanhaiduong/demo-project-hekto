@@ -1,0 +1,33 @@
+.imge1147{
+    text-align: center;
+    margin-top: 50px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    max-width: 1920px;
+    justify-content: center;
+  }
+
+  /* mobile */
+  @media only screen and ( max-width: 599px) {
+    .imge1147{
+      max-width: 340px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .imge1147__a{
+      width: 300px;
+    }
+  }
+  /* tablet */
+  @media only screen and ( min-width: 600px) and (max-width: 1023px) {
+    .imge1147{
+      max-width: 650px;
+    }
+    .imge1147__a{
+      width: 500px;
+      margin-top: -20px;
+      margin-bottom: 30px;
+    }
+  }

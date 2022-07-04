@@ -1,0 +1,79 @@
+.getup{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center; 
+    max-width: 1920px;
+  }
+    .getup__Img{
+      max-width: 1920px;
+      width: 100%;
+      object-fit: cover;
+      }
+    .getup__DT{
+      position: absolute;
+    }
+    .getup__DtT{
+      position: relative;
+      text-align: center;
+    }
+      .getup__cc{
+        width: 500px;
+        font-family: 'Josefin Sans';
+        font-size: 30px;
+        text-align: center;
+        line-height: 155%;
+        letter-spacing: 0.015em;
+        color: #151875;
+      }
+      .getup__icon{
+        background: #FB2E86;
+        border-radius: 2px;
+        border: 0px;
+        width: 150px;
+        height: 45px;
+        color: white;
+        font-size: 16px;
+        /* margin-left: 180px; */
+      }
+      .getup__icon:hover{
+        background-color: #dd0c67;
+      }
+
+  /* mobile */
+  @media only screen and (max-width: 599px) {
+    .getup{
+      max-width: 599px;
+    }
+    .getup__Img{
+      max-width: 599px;
+      height: 200px;
+    }
+    .getup__cc{
+      font-size: 15px;
+      width: 250px;
+    }
+    .getup__icon{
+      width: 100px;
+      height: 40px;
+    }
+  }
+  @media only screen and (min-width: 599px) and (max-width: 1023px) {
+    .getup{
+      max-width: 1024px;
+    }
+    .getup__Img{
+      width: 100%;
+      height: 200px;
+    }
+    .getup__cc{
+      font-size: 20px;
+      width: 300px;
+    }
+    .getup__sicon{
+      width: 100px;
+      height: 40px;
+    }
+  }
